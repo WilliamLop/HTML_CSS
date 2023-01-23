@@ -1,7 +1,6 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgba(211, 210, 210, 0.233);
-    
 }
 
 h1{
@@ -529,7 +528,7 @@ form .btn-enviar:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 250px;
-    margin: 10px;
+    margin: 0px;
 }
 .conditions-footer{
     /* background-color: red; */
@@ -631,7 +630,7 @@ form .btn-enviar:hover{
 
 @media screen and (max-width: 1100px){
     .content-all-home{
-        background-color:red;
+        /* background-color:red; */
         display: grid;
         grid-template-columns: 100%;
     }
@@ -639,9 +638,6 @@ form .btn-enviar:hover{
         width: 100%;
         height: 380px;
         margin-bottom:10px;
-    }
-    .content-fin{
-        /* max-width: 60%; */
     }
     .content-form .content-section, .content-form .content-section2{
         width: 100%;
@@ -653,7 +649,7 @@ form .btn-enviar:hover{
 
 @media screen and (max-width: 900px){
     .content-all-home {
-        background-color:rgb(141, 28, 135);
+        /* background-color:rgb(141, 28, 135); */
         display: grid;
         grid-template-columns: 100%;
     }
@@ -694,6 +690,7 @@ form .btn-enviar:hover{
         display: grid;
         grid-template-columns: 1fr 1fr;
         height: 100%;
+        
     }
 }
 
